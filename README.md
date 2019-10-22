@@ -19,21 +19,21 @@ because	23113	could	correspond	to	other	PIN	numbers,	such	as	69440 or 70439.
 
 The	next	time	the	user	logs	in,	a	different	sequence	of	random	numbers	would	be	generated,	such	as:	\
 PIN: 0 1 2 3 4 5 6 7 8 9 \
-NUM: 1 1 2 3 1 2 2 3 3 3 \
+NUM: 1 1 2 3 1 2 2 3 3 3 
 
 Write	a	program	to	simulate	the	authentication	process. Store	an	actual	5-digit	PIN	number	in	your	program (make	one	up,	
 and	store	it	as	a	constant).	The	program	should	use	an	array	to	assign	random	numbers	to	the digits	from	0	to	9.	
 Output	the	random	digits	to	the	screen, input	the	response	from	the	user,	and output	whether	or	not	the	user’s	response	correctly	matches	the	PIN	number.
 
 
-=========================================================== EXAMPLE ===========================================================
+======================================= EXAMPLE ======================================= \
 Assuming	that	the	actual	PIN	number	is	12345,	your	program	should	interact	with	the	user	
 exactly as	it	shows	in	the	following	examples	(2	different	executions of	the	program): \
 Please	enter	your	PIN	according	to	the	following	mapping: \
 PIN:	 0	1	2	3	4	5	6	7	8	9	\
 NUM:	 3	2	3	1	1	3	2	2	1	3	\
 23113 \
-Your	PIN is	correct \
+Your	PIN is	correct 
 
 Please	enter	your	PIN	according	to	the	following	mapping: \
 PIN:	 0	1	2	3	4	5	6	7	8	9	\
