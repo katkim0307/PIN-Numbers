@@ -1,6 +1,6 @@
 # PIN-Numbers
 
-Traditional	password	entry	schemes	are	susceptible	to	"shoulder	surfing"	in	which	an	attacker	
+Traditional	password	entry	schemes	are	susceptible	to	"shoulder	surfing"	in	which	an	attacker	\n
 watches	an	unsuspecting	user	enter	their	password	or	PIN	number	and	uses	it	later	to	gain	
 access	to	the	account.	One	way	to	combat	this	problem	is	with	a	randomized	challengeresponse	system.	
 
@@ -29,7 +29,7 @@ the	response	from	the	user,	and output	whether	or	not	the	user’s	response	corr
 the	PIN	number.
 
 
-================================================= EXAMPLE =================================================
+============================================ EXAMPLE ============================================
 Assuming	that	the	actual	PIN	number	is	12345,	your	program	should	interact	with	the	user	
 exactly as	it	shows	in	the	following	examples	(2	different	executions of	the	program):
 Please	enter	your	PIN	according	to	the	following	mapping:
