@@ -1,28 +1,7 @@
-// kk4036_hw8_q4.cpp : PIN Challenge
 // Randomizing challenge-response system for passwords
 // The user enters different info every time based on a secret 
 // in response to a randomly generated challenge.
 
-// The password consists of 5-digit PIN number (00000 to 99999)
-// Each digit is assigned a random number that is 1, 2, or 3.
-// The user enters the random numbers that corespond to their PIN 
-// instead of their actual PIN numbers
-// e.g. PIN number = 12345.  What they will see on the screen is:
-// PIN: 0 1 2 3 4 5 6 7 8 9
-// NUM: 3 2 3 1 1 3 2 2 1 3  (sequence of random #s consisting of 1, 2, or 3)
-// The user would enter 23113 instead of 12345. 
-// The hacker cannot intercept the entry becase 23113 could correspond to 
-// other PIN's like 69440 or 70439
-// The next time the user logs in, a different sequence of random numbers 
-// would be generated.
-
-// Write a program to simulate the authentication process. 
-// Store an actual 5-digit PIN numbers in your program as a constant
-// The program should use an array to assign random #s to the digits 0 ~ 9
-// Output the random digits to the screen, input the response from the user, 
-// and output whether or not the user's response correctly matches the PIN.
-
-#include "pch.h"
 #include <iostream>
 #include <time.h>
 #include <string>
@@ -139,22 +118,3 @@ void printRandomArr(int arr[], int arrSize) {
 		cout << arr[i] << " ";
 	}
 }
-
-/* Just some randome password function
-const string password = "wtfisthepassword";
-void pwCheck(string password) {
-	const string password = "wtfisthepassword";
-	string input;
-
-	cout << "Enter your password: " << flush;
-	cin >> input;
-
-	while (input != password) {
-		cout << "Incorrect password.  Try again: " << flush;
-		cin >> input;
-	}
-	cout << endl;
-	cout << "Password accepted.";  
-	cout << "Please check your email to validate your account." << endl;
-}
-*/
