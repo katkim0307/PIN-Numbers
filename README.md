@@ -26,7 +26,7 @@ and	store	it	as	a	constant).	The	program	should	use	an	array	to	assign	random	nu
 Output	the	random	digits	to	the	screen, input	the	response	from	the	user,	and output	whether	or	not	the	user’s	response	correctly	matches	the	PIN	number.
 
 
-======================================= EXAMPLE ======================================= \
+============================= EXAMPLE ============================= \
 Assuming	that	the	actual	PIN	number	is	12345,	your	program	should	interact	with	the	user	
 exactly as	it	shows	in	the	following	examples	(2	different	executions of	the	program): \
 Please	enter	your	PIN	according	to	the	following	mapping: \
